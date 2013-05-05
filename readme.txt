@@ -48,11 +48,15 @@ It's designed to work with:
 1. Download and unzip the current version of the VOOplayer plugin.
 2. Transfer the entire 'vooplayer' directory to your '/wp-content/plugins/' directory.
 3. Activate the plugin through the 'Plugins' menu in WordPress.
-4. That's it! If you're an existing VOOplayer user, you can login with your username and password otherwise you'll need to register a free account.
+4. Login (if you're existing user) or register an account (if you're new).
+5. That's it! If you're an existing VOOplayer user, you can login with your username and password otherwise you'll need to register a free account.
+
+<b>How To Use VOOplayer in WP</b>
+Once you create and save your video in VooPlayer/Videos Dashboard, go to your posts or pages and you'll see a VOOplayer icon on the WP Editor so you can insert your video codes easily.
 
 == Frequently Asked Questions ==
 
-Coming soon
+<a href="http://help.internetmarketingwizard.com/">Click to visit FAQ</a> page.
 
 == Changelog ==
 
