@@ -1,0 +1,73 @@
+#vooplayer_wrapper
+{
+	margin-top:30px;
+	width:auto;
+}
+.vooicon
+{
+	background-image: url("images/large_icon.jpg");
+	background-repeat: no-repeat;
+	height:32px;
+	width:25px;
+	float:left;
+	margin-right:5px;
+}
+
+#vooplayer_wrapper .postbox
+{
+	width:98%;
+}
+
+.col
+{
+	float:left;
+	margin-right:10px;
+}
+
+.coltitle
+{
+	text-decoration:underline;
+}
+
+.vooplayer_header
+{
+	background:#321615;
+	height: 120px;
+	width:98%;
+}
+
+.vooplayer_logo
+{
+	padding:18px 0 0 0px;
+}
+
+.msg
+{
+	color:#ff0000;
+}
+
+#vooplayer_wrapper input[type="text"], #vooplayer_wrapper input[type="password"]
+{
+	width: 200px;
+	line-height: 2em;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 3px 3px 3px 3px;
+}
+
+#vooplayer_wrapper td
+{
+	padding:5px;
+}
+
+#vooplayer_wrapper .inside
+{
+	padding-left:40px;
+}
+
+#vooplayer_wrapper h4
+{
+	padding-left:10px;
+}
