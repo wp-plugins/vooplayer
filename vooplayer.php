@@ -126,6 +126,10 @@ class Vooplayer
 			update_option('voo_login_id',$_REQUEST["name"]);
 			$valid = 1;
 		}
+		else if ($_REQUEST["mid"] < 0)
+		{
+			$valid = $_REQUEST["mid"];
+		}
 		echo "<script language='javascript'>window.parent.api_callback('".$_REQUEST["act"]."','".$valid."');</script>";		
 		exit();
 	}
