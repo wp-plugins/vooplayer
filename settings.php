@@ -113,7 +113,7 @@ if (isset($_POST['act']) && $_POST['act']=="logout")
 				jQuery("#aweber_email").val(jQuery("#email").val());
 				jQuery("#aweber_amember_login").val(jQuery("#amember_login").val());
 				jQuery("#frmaweber").attr('action','<?php echo $this->service_url;?>members/webservice_aweber.php');
-				//jQuery("#frmaweber").submit();
+				jQuery("#frmaweber").submit();
 			}
 			var t=setTimeout(function(){location.href = '<?php echo admin_url("admin.php?page=vooplayer")?>';},1000);
 		}
