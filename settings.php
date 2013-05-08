@@ -110,12 +110,13 @@ if (isset($_POST['act']) && $_POST['act']=="logout")
 			{
 				actname = "Registration";
 				jQuery("#frmaweber").attr('target','vooCall');
-				jQuery("#aweber_email").val(jQuery("#email").val());
-				jQuery("#aweber_amember_login").val(jQuery("#amember_login").val());
+				jQuery("#aweber_email").val(jQuery("#reg_email").val());
+				jQuery("#aweber_amember_login").val(jQuery("#reg_amember_login").val());
 				jQuery("#frmaweber").attr('action','<?php echo $this->service_url;?>members/webservice_aweber.php');
 				jQuery("#frmaweber").submit();
+				jQuery("#"+act+"_wait").show();
 			}
-			var t=setTimeout(function(){location.href = '<?php echo admin_url("admin.php?page=vooplayer")?>';},1000);
+			var t=setTimeout(function(){location.href = '<?php echo admin_url("admin.php?page=vooplayer")?>';},2000);
 		}
 		else
 		{
