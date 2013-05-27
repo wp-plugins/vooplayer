@@ -7,8 +7,8 @@ Author URI: http://www.imwenterprises.com
 Author: IMW Enterprises Ltd.
 Requires at least: 2.8
 Tested up to: 3.5.1
-Stable tag: 1.0
-Version: 1.0 
+Stable tag: 1.1
+Version: 1.1
 License: GPLv2 or later
 
 The official #1 most powerful video player to customize, analyze and optimize FLV, MP4 and YouTube videos is now available on WordPress.
@@ -58,6 +58,9 @@ How Do I Use It? Once you create and save your video in VooPlayer/Videos Dashboa
 Please read these <a href="http://help.internetmarketingwizard.com/">FAQs</a> to review the top answered questions.
 
 == Changelog ==
+
+= 1.1 =
+video showing at the top - fixed
 
 = 1.0 =
 VOOplayer Plugin for WordPress is now launched
