@@ -6,9 +6,9 @@ Tags: flash, flv, iOS, iphone, ipad, MP4, player, html5, plugin, stream, youtube
 Author URI: http://www.imwenterprises.com
 Author: IMW Enterprises Ltd.
 Requires at least: 2.8
-Tested up to: 3.5.1
-Stable tag: 1.1
-Version: 1.1
+Tested up to: 3.8
+Stable tag: 1.2
+Version: 1.2
 License: GPLv2 or later
 
 The official #1 most powerful video player to customize, analyze and optimize FLV, MP4 and YouTube videos is now available on WordPress.
