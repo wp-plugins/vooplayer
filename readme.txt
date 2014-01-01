@@ -2,7 +2,7 @@
 Contributors: socratous139
 Plugin Name: VOOplayer - Ultimate Video Player for WordPress
 Plugin URI: http://www.vooplayer.com
-Tags: flash, flash player, flv, iOS, iphone, ipad, MP4, player, html5, html5 video player, plugin, stream, youtube, video, video player, wordpress
+Tags: flash, flash player, flv, iOS, iphone, ipad, MP4, player, html5, html5 video player, plugin, stream, youtube, video, video player, wordpress, h264, aac, h263, overlays, optin
 Author URI: http://www.imwenterprises.com
 Author: IMW Enterprises Ltd.
 Requires at least: 2.8
