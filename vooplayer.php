@@ -4,7 +4,7 @@ Plugin Name: VOOplayer - Ultimate Video Player for WordPress
 Plugin URI: http://www.vooplayer.com
 Description: The official #1 most powerful video player to customize, analyze and optimize FLV, MP4 and YouTube videos is now available on WordPress.
 Author: IMW Enterprises Ltd.
-Version: 1.1
+Version: 3.0
 */
 ?>
 <?php
@@ -37,16 +37,22 @@ class Vooplayer
 	function admin_menu() 
 	{
 		if ( current_user_can( 'list_users' )){
-			add_menu_page( __( 'Vooplayer', $this->namespace), __( 'Vooplayer', $this->namespace ), 8, $this->namespace, array($this,'my_vooplayer'),$this->plugin_url."/images/icon.jpg");
+			add_menu_page( __( 'vooPlayer', $this->namespace), __( 'vooPlayer', $this->namespace ), 8, $this->namespace, array($this,'my_vooplayer'),$this->plugin_url."/images/faviconsm.png");
 			add_submenu_page($this->namespace, __( 'Create Video', $this->namespace ), __( 'Video Dashboard', $this->namespace ),8, $this->namespace, array($this,'my_vooplayer'));
 			//add_submenu_page($this->namespace, __( 'My Videos', $this->namespace ), __( 'My Videos', $this->namespace ),8, $this->namespace."_videos", array($this,'list_videos'));
 			//add_submenu_page($this->namespace, __( 'Split Tests', $this->namespace ), __( 'Split Tests', $this->namespace ),8, $this->namespace."_split_tests", array($this,'split_tests'));
 			add_submenu_page($this->namespace, __( 'Settings', $this->namespace ), __( 'Settings', $this->namespace ),8, $this->namespace."_settings", array($this,'settings')); 
+			add_submenu_page($this->namespace, 'Help','Help',8, $this->namespace."_help", array($this,'help')); 
 		}
 		else
 		{
 		}
 		
+	}
+	
+	function help()
+	{
+		echo "<script language='javascript'>window.open('http://vooplayer.helpscoutdocs.com');</script>";
 	}
 
 	function settings()
@@ -76,15 +82,15 @@ class Vooplayer
 		// It is NOT allowed to contain spaces
 		 'LOGIN' => array(
 		 	 'title'   => 'Login'
-		 	,'content' => 'This screen will validate your Vooplayer account login details and authenticate you to operate your Vooplayer account here. <br/>You have to validate your Vooplayer account login details only once.<br/>You can change associated Vooplayer account any time by login in from this screen.<br/><br/>Username - Your Vooplayer account Username.<br/>Password - Your Vooplayer account Password.'
+		 	,'content' => 'This screen will validate your vooPlayer account login details and authenticate you to operate your vooPlayer account here. <br/>You have to validate your vooPlayer account login details only once.<br/>You can change associated vooPlayer account any time by login in from this screen.<br/><br/>Username - Your vooPlayer account Username.<br/>Password - Your vooPlayer account Password.'
 		 ),
 		 'FORGOT' => array(
 		 	 'title'   => 'Lost Password?'
-		 	,'content' => 'You will be redirected to Vooplayer web site to retrieve password.<br/><br/>Password will be e-mailed to you.'
+		 	,'content' => 'You will be redirected to vooPlayer web site to retrieve password.<br/><br/>Password will be e-mailed to you.'
 		 ),
 		 'Register' => array(
 		 	 'title'   => 'New User'
-		 	,'content' => 'You can create your Vooplayer Free account using this screen. You can operate your Vooplayer account directly on Vooplayer web site using these account details.<br/></br>Username - Your Vooplayer account Username.<br/>Password - Your Vooplayer account Password.<br/>Email Address - Email address associated with your Vooplayer account.All communication will be done on this email address.'
+		 	,'content' => 'You can create your vooPlayer Free account using this screen. You can operate your vooPlayer account directly on vooPlayer web site using these account details.<br/></br>Username - Your vooPlayer account Username.<br/>Password - Your vooPlayer account Password.<br/>Email Address - Email address associated with your vooPlayer account.All communication will be done on this email address.'
 		 )
 	);
 
@@ -99,7 +105,7 @@ class Vooplayer
 					,'title'    => __( $data['title'], $this->namespace )
 					// Use the content only if you want to add something
 					// static on every help tab. Example: Another title inside the tab
-					,'content'  => '<p><u>This plugin is only a interface to operate your Vooplayer account in Wordpress Admin.</u></p>'
+					,'content'  => '<p><u>This plugin is only a interface to operate your vooPlayer account in Wordpress Admin.</u></p>'
 					,'callback' => array( $this, 'prepare' )
 				) );
 			}
@@ -177,7 +183,7 @@ class Vooplayer
 
 	function activation_notice(){
 		if(function_exists('admin_url')){
-			echo '<div class="update-nag">'.__( 'Please', $this->namespace ).' <a href="' . admin_url( 'options-general.php?page='.$this->plugin_name ) . '">'.__( 'Click here', $this->namespace ).'</a> '.__( 'to Login or register to Vooplayer.', $this->namespace ).'.</div>';
+			echo '<div class="update-nag">'.__( 'Please', $this->namespace ).' <a href="' . admin_url( 'options-general.php?page='.$this->plugin_name ) . '">'.__( 'Click here', $this->namespace ).'</a> '.__( 'to Login or register to vooPlayer.', $this->namespace ).'.</div>';
 		}
 	}		
 

@@ -1,21 +1,21 @@
-﻿=== VOOplayer - Ultimate Video Player for WordPress ===
+﻿=== vooPlayer - Ultimate Video Player for WordPress ===
 Contributors: socratous139
-Plugin Name: VOOplayer - Ultimate Video Player for WordPress
+Plugin Name: vooPlayer - Ultimate Video Player for WordPress
 Plugin URI: http://www.vooplayer.com
 Tags: flash, flash player, flv, iOS, iphone, ipad, MP4, player, html5, html5 video player, plugin, stream, youtube, video, video player, wordpress, h264, aac, h263, overlays, optin
 Author URI: http://www.imwenterprises.com
 Author: IMW Enterprises Ltd.
 Requires at least: 2.8
-Tested up to: 3.8
+Tested up to: 4.0
 Stable tag: 1.2
-Version: 1.2
+Version: 3.0
 License: GPLv2 or later
 
 The official #1 most powerful video player to customize, analyze and optimize FLV, MP4 and YouTube videos is now available on WordPress.
 
 == Description ==
 
-VOOplayer is the most complete video player for WordPress that allows you to fully-customize, analyze and optimize your videos (including .flv, mp4, youtube and any other self-hosted videos you may want to publish) on you WordPress site. 
+vooPlayer is the most complete video player for WordPress that allows you to fully-customize, analyze and optimize your videos (including .flv, mp4, youtube and any other self-hosted videos you may want to publish) on you WordPress site. 
  
 Here are just few of the amazing features:
 
@@ -39,20 +39,20 @@ It's designed to work with:
 - Amazon S3
 - MP4 & FLV
 
-= Learn More About VOOplayer  =
+= Learn More About vooPlayer  =
 
-<a href="http://www.vooplayer.com/">VOOplayer</a> is a web-based video player application that helps user customize, analyze, optimize and publish videos on their website.
+<a href="http://www.vooplayer.com/">vooPlayer</a> is a web-based video player application that helps user customize, analyze, optimize and publish videos on their website.
 
 
 == Installation ==
 
-1. Download and unzip the current version of the VOOplayer plugin.
+1. Download and unzip the current version of the vooPlayer plugin.
 2. Transfer the entire 'vooplayer' directory to your '/wp-content/plugins/' directory.
 3. Activate the plugin through the 'Plugins' menu in WordPress.
 4. Login (if you're existing user) or register an account (if you're new).
-5. That's it! If you're an existing VOOplayer user, you can login with your username and password otherwise you'll need to register a free account.
+5. That's it! If you're an existing vooPlayer user, you can login with your username and password otherwise you'll need to register a free account.
 
-How Do I Use It? Once you create and save your video in VooPlayer/Videos Dashboard, go to your posts or pages and you'll see a VOOplayer icon on the WP Editor so you can insert your video codes easily.
+How Do I Use It? Once you create and save your video in vooPlayer/Videos Dashboard, go to your posts or pages and you'll see a vooPlayer icon on the WP Editor so you can insert your video codes easily.
 
 == Frequently Asked Questions ==
 
@@ -60,11 +60,22 @@ Please read these <a href="http://help.internetmarketingwizard.com/">FAQs</a> to
 
 == Changelog ==
 
+= 3.0.0 - 7-Nov-2014 (MAJOR UPDATE) =
+
+* Tweak - Completely new user-interface with 21 days trial to PRO for the following features.
+* Feature - Fully-customize your videos using any YouTube, Vimeo, S3, self-hosted MP4 links, etc. 
+* Feature - Add timed events and smart behaviors such as buttons, opt-in boxes, social gates, etc.
+* Feature - See in real-time how viewers react, make better decisions & watch your profits soar.
+* Feature - A/B test your videos and see which one converts better. No more guessing!
+
+= 1.2 =
+compability with v3
+
 = 1.1 =
 video showing at the top - fixed
 
 = 1.0 =
-VOOplayer Plugin for WordPress is now launched
+vooPlayer Plugin for WordPress is now launched
 
 == Screenshots ==
 

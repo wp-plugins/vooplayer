@@ -20,7 +20,7 @@ var my_editor = null;
 
 			ed.addButton('vooplayer', {
 				title : 'Vooplayer Shortcode',
-				image : url+'/images/large_icon.jpg',
+				image : url+'/images/favicon(1).png',
 				onclick : function() {
 					idPattern = /(?:(?:[^v]+)+v.)?([^&=]{11})(?=&|$)/;
 					ed.windowManager.open({

@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Vooplayer Shortcode</title>
+<title>vooPlayer Shortcode</title>
 <script type="text/javascript" src="../wp-includes/js/tinymce/tiny_mce_popup.js?v=3211"></script>
 <?php
 wp_enqueue_script('jquery');
