@@ -11,7 +11,7 @@ Stable tag: 1.2
 Version: 3.0
 License: GPLv2 or later
 
-#1 Interactive Video Player for WordPress Designed to Grow Your Business. Publish, optimize & A/B test unlimited videos (MP4, YouTube, Vimeo, etc).
+#1 Interactive Video Player for WordPress Designed to Grow Your Business. Publish, optimize & A/B test unlimited videos, MP4, YouTube, Vimeo, etc.
 
 
 == Description ==
