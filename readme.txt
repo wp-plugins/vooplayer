@@ -11,7 +11,8 @@ Stable tag: 1.2
 Version: 3.0
 License: GPLv2 or later
 
-The official #1 most powerful video player to customize, analyze and optimize FLV, MP4 and YouTube videos is now available on WordPress.
+#1 Interactive Video Player for WordPress Designed to Grow Your Business. Publish, optimize & A/B test unlimited videos from any data source including YouTube, Vimeo, Google Drive and more.
+
 
 == Description ==
 
