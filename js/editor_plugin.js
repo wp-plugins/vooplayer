@@ -40,9 +40,9 @@ var my_editor = null;
 			return {
 				longname : "Vooplayer",
 				author : 'Vooplayer',
-				authorurl : 'http://www.vooplayer.com',
-				infourl : 'http://www.vooplayer.com',
-				version : "1.0"
+				authorurl : 'https://www.vooplayer.com',
+				infourl : 'https://www.vooplayer.com',
+				version : "3.0"
 			};
 		}
 	});

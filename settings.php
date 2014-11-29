@@ -7,7 +7,7 @@ if (isset($_POST['act']) && $_POST['act']=="logout")
 ?>
 <div id="vooplayer_wrapper">
 	<div class="vooplayer_header">
-		<div class="vooplayer_logo" align="left"><img style="margin-left: 20px;"src="<?php echo $this->plugin_url?>/images/logo.png"><div style="float:right;margin-right:20px"><a style="color:white;text-decoration:none;" target="_blank" href="www.vooplayer.com">Learn more</a></div></div>
+		<div class="vooplayer_logo" align="left"><img style="margin-left: 20px;"src="<?php echo $this->plugin_url?>/images/logo.png"><div style="float:right;margin-right:20px"><a style="color:white;text-decoration:none;" target="_blank" href="https://www.vooplayer.com">Learn more</a></div></div>
 		
 	</div>
 
@@ -38,7 +38,7 @@ if (isset($_POST['act']) && $_POST['act']=="logout")
 							<td><input type="password" name="amember_pass" id="login_amember_pass" size="15" placeholder='<?php _e('vooPlayer.com Password', $this->namespace); ?>' class="voo_input"></td>
 						</tr>
 						<tr>
-							<td><a href="http://www.vooplayer.com/members/login.php"><?php _e('Forgot Password', $this->namespace); ?>?</a></td>
+							<td><a href="https://www.vooplayer.com/members/login.php"><?php _e('Forgot Password', $this->namespace); ?>?</a></td>
 						</tr>
 						<tr>
 							<td><input type="submit" name="login"  value="<?php _e('Login', $this->namespace); ?>" class="button-primary">&nbsp;<img src='<?php echo $this->plugin_url?>/images/loading.gif' id='login_wait' class="wait" style='display:none;'></td>
