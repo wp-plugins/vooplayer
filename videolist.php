@@ -1,13 +1,17 @@
 <html>
 <head>
 <title>vooPlayer Shortcode</title>
+<link rel="stylesheet" href="<?php echo $this->plugin_url.'/flexSelect.css'; ?>" />
 <script type="text/javascript" src="../wp-includes/js/tinymce/tiny_mce_popup.js?v=3211"></script>
 <?php
 wp_enqueue_script('jquery');
 global $wp_scripts;
 wp_print_scripts();
 ?>
+<script type="text/javascript" src="<?php echo $this->plugin_url.'/js/liquidmetal.js'; ?>"></script>
+<script type="text/javascript" src="<?php echo $this->plugin_url.'/js/jquery.flexselect.js'; ?>"></script>
 <script language="javascript">
+
 function insertImage()
 {
 	/*jQuery("input:radio[name=pershortcode]").each(function(){
@@ -30,6 +34,18 @@ jQuery.noConflict();
 jQuery(document).ready(function(){
 	jQuery("#loading").hide();
 	jQuery("#imagecontainer").show();
+	jQuery("select.flexselect").flexselect();
+	
+	jQuery("#pershortcode_flexselect").focus(function(){
+	
+		if(jQuery(this).val() == "Select Video"){
+		
+			jQuery(this).val("");
+		
+		}
+		
+	});	
+	
 });
 </script>
 </head>
@@ -48,7 +64,7 @@ $page = $curl->post ($this->service_url.'/videoplayer/webservice_videos.php', $P
 $videolist = json_decode($page);
 $i=0;
 echo "<table width='100%'><tr><td></td>";
-echo '<td><select name="pershortcode" id="pershortcode" style="width:100%;"><option value="">Select Video</option>'; 
+echo '<td><select name="pershortcode" class="flexselect" id="pershortcode" style="width:100%;"><option selected disabled value="">Select Video</option>'; 
 foreach($videolist as $key=>$video)
 {
 	/*if ($i%2 == 0 && $i > 0)

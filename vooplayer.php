@@ -4,7 +4,7 @@ Plugin Name: VOOplayer - Ultimate Video Player for WordPress
 Plugin URI: http://www.vooplayer.com
 Description: The official #1 most powerful video player to customize, analyze and optimize FLV, MP4 and YouTube videos is now available on WordPress.
 Author: IMW Enterprises Ltd.
-Version: 3.0.1
+Version: 3.0.2
 */
 ?>
 <?php
@@ -37,7 +37,7 @@ class Vooplayer
 	function admin_menu() 
 	{
 		if ( current_user_can( 'list_users' )){
-			add_menu_page( __( 'vooPlayer', $this->namespace), __( 'vooPlayer', $this->namespace ), 8, $this->namespace, array($this,'my_vooplayer'),$this->plugin_url."/images/faviconsm.png");
+			add_menu_page( __( 'vooPlayer', $this->namespace), __( 'vooPlayer', $this->namespace ), 8, $this->namespace, array($this,'my_vooplayer'),$this->plugin_url."/images/icon.jpg");
 			add_submenu_page($this->namespace, __( 'Create Video', $this->namespace ), __( 'Video Dashboard', $this->namespace ),8, $this->namespace, array($this,'my_vooplayer'));
 			//add_submenu_page($this->namespace, __( 'My Videos', $this->namespace ), __( 'My Videos', $this->namespace ),8, $this->namespace."_videos", array($this,'list_videos'));
 			//add_submenu_page($this->namespace, __( 'Split Tests', $this->namespace ), __( 'Split Tests', $this->namespace ),8, $this->namespace."_split_tests", array($this,'split_tests'));

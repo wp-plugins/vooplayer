@@ -6,9 +6,9 @@ Tags: flash, flash player, flv, iOS, iphone, ipad, MP4, player, html5, html5 vid
 Author URI: http://www.imwenterprises.com
 Author: IMW Enterprises Ltd.
 Requires at least: 2.8
-Tested up to: 4.0
+Tested up to: 4.0.1
 Stable tag: 1.2
-Version: 3.0.1
+Version: 3.0.2
 License: GPLv2 or later
 
 #1 Interactive Video Player for WordPress Designed to Grow Your Business. Publish, optimize & A/B test unlimited videos, MP4, YouTube, Vimeo, etc.
@@ -60,6 +60,11 @@ How Do I Use It? Once you create and save your video in vooPlayer/Videos Dashboa
 Please read these <a href="http://help.internetmarketingwizard.com/">FAQs</a> to review the top answered questions.
 
 == Changelog ==
+
+= 3.0.2 - 17-Dec-2014 =
+
+* Fix - Inserting shortcode icon from post or page
+* Tweak - Searchable videos within shortcode menu
 
 = 3.0.1 - 29-Nov-2014 =
 
