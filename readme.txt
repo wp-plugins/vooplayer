@@ -16,7 +16,7 @@ License: GPLv2 or later
 
 == Description ==
 
-vooPlayer is the most complete video player for WordPress that allows you to fully-customize, analyze and optimize your videos (including .flv, mp4, youtube and any other self-hosted videos you may want to publish) on you WordPress site. 
+vooPlayer is the most complete video player for WordPress that allows you to fully-customize, analyze and add superpowers to ANY video, hosted ANYWHERE including on YouTube, Vimeo, Dropbox, AmazonS3 or even host it on your own server or elsewhere.
  
 Here are just few of the amazing features:
 
