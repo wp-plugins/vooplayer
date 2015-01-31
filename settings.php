@@ -13,7 +13,8 @@ if (isset($_POST['act']) && $_POST['act']=="logout")
 
 	<div id="poststuff">
 		<div class="postbox">
-			<h3 class="hndle"><?php _e('#1 Interactive Video Player to Publish, Optimize & A/B Test Unlimited videos.', $this->namespace); ?></h3>
+			<h3 class="hndle"> <img src="<?php echo $this->plugin_url?>/images/headline.png" /></h3>
+
 			<?php if (get_option("voo_valid_id")!=""){?>
 			<div class="inside col">
 				<div style="padding:10px;">
