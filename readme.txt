@@ -6,7 +6,7 @@ Tags: flash, flash player, flv, iOS, iphone, ipad, MP4, player, html5, html5 vid
 Author URI: http://www.imwenterprises.com
 Author: IMW Enterprises Ltd.
 Requires at least: 2.8
-Tested up to: 4.1
+Tested up to: 4.2
 Stable tag: 1.2
 Version: 3.0.2
 License: GPLv2 or later
