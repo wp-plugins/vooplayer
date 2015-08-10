@@ -49,7 +49,7 @@ if (isset($_POST['act']) && $_POST['act']=="logout")
 					<div id="login_msg" style="height:35px;color:#00000; margin-top:10px;" class="msg"></div>
 				</form>
 			</div>
-			<div class="inside col">
+			<!--div class="inside col">
 			<!--div><h4 class="coltitle"><?php _e('Create your account', $this->namespace); ?></h4>
 			<div style="padding-left:10px;">
 				New user? Register as a VOOPlayer member and start monetizing your videos.<br/>
@@ -80,7 +80,7 @@ if (isset($_POST['act']) && $_POST['act']=="logout")
 			</form></div-->
 			
 			
-		<form id="vooplayer_register" name="vooplayer_register" method="post" class="apicall">	
+		<!--form id="vooplayer_register" name="vooplayer_register" method="post" class="apicall">	
 			<div style="z-index:999" class="loginUForm">
 			<input type="hidden" name="act" value="reg" class="act">
 			<input type="hidden" name="returnurl" value="<?php echo admin_url("admin-ajax.php?action=voo_call");?>">
@@ -108,7 +108,7 @@ if (isset($_POST['act']) && $_POST['act']=="logout")
 			<div id="reg_msg" style="height:35px;color:#00000; margin-top:10px;" class="msg"></div>
 		</form>
 		
-			</div>
+			</div-->
 			<?php }?>
 			<div style="clear:both;float:none;"></div>
 			
