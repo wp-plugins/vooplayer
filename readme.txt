@@ -8,7 +8,7 @@ Author: IMW Enterprises Ltd.
 Requires at least: 2.8
 Tested up to: 4.2
 Stable tag: 1.2
-Version: 3.0.2
+Version: 3.0.3
 License: GPLv2 or later
 
 #1 Interactive Video Player for WordPress Designed to Grow Your Business. Publish, optimize & A/B test unlimited videos, MP4, YouTube, Vimeo, etc.
